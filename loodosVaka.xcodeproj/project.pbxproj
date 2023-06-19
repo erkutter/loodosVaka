@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		354A362E2A3FB8D700BA0FDE /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 354A362D2A3FB8D700BA0FDE /* FirebaseRemoteConfig */; };
+		355315212A3F376700221053 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355315202A3F376700221053 /* ResultView.swift */; };
+		355315232A3F3B8C00221053 /* MoviePoster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355315222A3F3B8C00221053 /* MoviePoster.swift */; };
+		355315252A3F459300221053 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355315242A3F459300221053 /* DetailView.swift */; };
+		355315292A3F686700221053 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355315282A3F686700221053 /* NetworkService.swift */; };
 		357D689E2A39178500648221 /* loodosVakaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357D689D2A39178500648221 /* loodosVakaApp.swift */; };
-		357D68A02A39178500648221 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357D689F2A39178500648221 /* ContentView.swift */; };
 		357D68A22A39178600648221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357D68A12A39178600648221 /* Assets.xcassets */; };
 		357D68A52A39178600648221 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357D68A42A39178600648221 /* Preview Assets.xcassets */; };
-		357D68AF2A39178700648221 /* loodosVakaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357D68AE2A39178700648221 /* loodosVakaTests.swift */; };
-		357D68B92A39178700648221 /* loodosVakaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357D68B82A39178700648221 /* loodosVakaUITests.swift */; };
-		357D68BB2A39178700648221 /* loodosVakaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357D68BA2A39178700648221 /* loodosVakaUITestsLaunchTests.swift */; };
+		35B4BD942A3A86FC009D3B54 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35B4BD932A3A86FC009D3B54 /* GoogleService-Info.plist */; };
+		35B4BD972A3A8854009D3B54 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 35B4BD962A3A8854009D3B54 /* FirebaseAnalyticsSwift */; };
+		35B4BD992A3A8854009D3B54 /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 35B4BD982A3A8854009D3B54 /* FirebaseInAppMessagingSwift-Beta */; };
+		35B4BDA82A3E5113009D3B54 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B4BDA72A3E5113009D3B54 /* HomeView.swift */; };
+		35B4BDB62A3E606E009D3B54 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B4BDB52A3E606E009D3B54 /* MovieService.swift */; };
+		35E32EB92A3F29A8002019AE /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E32EB82A3F29A8002019AE /* SearchBar.swift */; };
+		35E856072A3FD216004F8658 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 35E856062A3FD216004F8658 /* FirebaseMessaging */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +42,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		355315202A3F376700221053 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		355315222A3F3B8C00221053 /* MoviePoster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePoster.swift; sourceTree = "<group>"; };
+		355315242A3F459300221053 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		355315282A3F686700221053 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		357D689A2A39178500648221 /* loodosVaka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loodosVaka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		357D689D2A39178500648221 /* loodosVakaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loodosVakaApp.swift; sourceTree = "<group>"; };
-		357D689F2A39178500648221 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		357D68A12A39178600648221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		357D68A42A39178600648221 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		357D68AA2A39178700648221 /* loodosVakaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loodosVakaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		357D68AE2A39178700648221 /* loodosVakaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loodosVakaTests.swift; sourceTree = "<group>"; };
 		357D68B42A39178700648221 /* loodosVakaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loodosVakaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		357D68B82A39178700648221 /* loodosVakaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loodosVakaUITests.swift; sourceTree = "<group>"; };
-		357D68BA2A39178700648221 /* loodosVakaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loodosVakaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		35B4BD932A3A86FC009D3B54 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		35B4BDA72A3E5113009D3B54 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		35B4BDB52A3E606E009D3B54 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		35E32EB82A3F29A8002019AE /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35E856072A3FD216004F8658 /* FirebaseMessaging in Frameworks */,
+				354A362E2A3FB8D700BA0FDE /* FirebaseRemoteConfig in Frameworks */,
+				35B4BD992A3A8854009D3B54 /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
+				35B4BD972A3A8854009D3B54 /* FirebaseAnalyticsSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,13 +87,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		354A36272A3F7E1200BA0FDE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				357D689D2A39178500648221 /* loodosVakaApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		354A362C2A3FB8D700BA0FDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		357D68912A39178500648221 = {
 			isa = PBXGroup;
 			children = (
 				357D689C2A39178500648221 /* loodosVaka */,
-				357D68AD2A39178700648221 /* loodosVakaTests */,
-				357D68B72A39178700648221 /* loodosVakaUITests */,
 				357D689B2A39178500648221 /* Products */,
+				354A362C2A3FB8D700BA0FDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,9 +124,11 @@
 		357D689C2A39178500648221 /* loodosVaka */ = {
 			isa = PBXGroup;
 			children = (
-				357D689D2A39178500648221 /* loodosVakaApp.swift */,
-				357D689F2A39178500648221 /* ContentView.swift */,
+				354A36272A3F7E1200BA0FDE /* App */,
+				35B4BD7F2A3A0720009D3B54 /* Services */,
+				35B4BD7E2A3A0716009D3B54 /* Core */,
 				357D68A12A39178600648221 /* Assets.xcassets */,
+				35B4BD932A3A86FC009D3B54 /* GoogleService-Info.plist */,
 				357D68A32A39178600648221 /* Preview Content */,
 			);
 			path = loodosVaka;
@@ -110,21 +142,97 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		357D68AD2A39178700648221 /* loodosVakaTests */ = {
+		35B4BD7E2A3A0716009D3B54 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				357D68AE2A39178700648221 /* loodosVakaTests.swift */,
+				35B4BD802A3A076A009D3B54 /* Components */,
+				35B4BD812A3A07A2009D3B54 /* HomeScreen */,
+				35B4BD892A3A1259009D3B54 /* DetailScreen */,
+				35B4BDA32A3A9ECF009D3B54 /* ResultScreen */,
 			);
-			path = loodosVakaTests;
+			path = Core;
 			sourceTree = "<group>";
 		};
-		357D68B72A39178700648221 /* loodosVakaUITests */ = {
+		35B4BD7F2A3A0720009D3B54 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				357D68B82A39178700648221 /* loodosVakaUITests.swift */,
-				357D68BA2A39178700648221 /* loodosVakaUITestsLaunchTests.swift */,
+				35B4BDB52A3E606E009D3B54 /* MovieService.swift */,
+				355315282A3F686700221053 /* NetworkService.swift */,
 			);
-			path = loodosVakaUITests;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		35B4BD802A3A076A009D3B54 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				35B4BD902A3A7A66009D3B54 /* Search */,
+				35B4BD862A3A0864009D3B54 /* Movies */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		35B4BD812A3A07A2009D3B54 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				35B4BD822A3A07AF009D3B54 /* View */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		35B4BD822A3A07AF009D3B54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				35B4BDA72A3E5113009D3B54 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		35B4BD862A3A0864009D3B54 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				355315222A3F3B8C00221053 /* MoviePoster.swift */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		35B4BD892A3A1259009D3B54 /* DetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				35B4BD8B2A3A12BF009D3B54 /* Views */,
+			);
+			path = DetailScreen;
+			sourceTree = "<group>";
+		};
+		35B4BD8B2A3A12BF009D3B54 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				355315242A3F459300221053 /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		35B4BD902A3A7A66009D3B54 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				35E32EB82A3F29A8002019AE /* SearchBar.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		35B4BDA32A3A9ECF009D3B54 /* ResultScreen */ = {
+			isa = PBXGroup;
+			children = (
+				35B4BDA42A3A9EE2009D3B54 /* Views */,
+			);
+			path = ResultScreen;
+			sourceTree = "<group>";
+		};
+		35B4BDA42A3A9EE2009D3B54 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				355315202A3F376700221053 /* ResultView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +251,12 @@
 			dependencies = (
 			);
 			name = loodosVaka;
+			packageProductDependencies = (
+				35B4BD962A3A8854009D3B54 /* FirebaseAnalyticsSwift */,
+				35B4BD982A3A8854009D3B54 /* FirebaseInAppMessagingSwift-Beta */,
+				354A362D2A3FB8D700BA0FDE /* FirebaseRemoteConfig */,
+				35E856062A3FD216004F8658 /* FirebaseMessaging */,
+			);
 			productName = loodosVaka;
 			productReference = 357D689A2A39178500648221 /* loodosVaka.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +329,9 @@
 				Base,
 			);
 			mainGroup = 357D68912A39178500648221;
+			packageReferences = (
+				35B4BD952A3A8854009D3B54 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 357D689B2A39178500648221 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +350,7 @@
 			files = (
 				357D68A52A39178600648221 /* Preview Assets.xcassets in Resources */,
 				357D68A22A39178600648221 /* Assets.xcassets in Resources */,
+				35B4BD942A3A86FC009D3B54 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +375,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				357D68A02A39178500648221 /* ContentView.swift in Sources */,
+				35B4BDA82A3E5113009D3B54 /* HomeView.swift in Sources */,
+				355315252A3F459300221053 /* DetailView.swift in Sources */,
 				357D689E2A39178500648221 /* loodosVakaApp.swift in Sources */,
+				355315292A3F686700221053 /* NetworkService.swift in Sources */,
+				35B4BDB62A3E606E009D3B54 /* MovieService.swift in Sources */,
+				355315232A3F3B8C00221053 /* MoviePoster.swift in Sources */,
+				35E32EB92A3F29A8002019AE /* SearchBar.swift in Sources */,
+				355315212A3F376700221053 /* ResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +390,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				357D68AF2A39178700648221 /* loodosVakaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +397,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				357D68B92A39178700648221 /* loodosVakaUITests.swift in Sources */,
-				357D68BB2A39178700648221 /* loodosVakaUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,9 +553,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ter.erkut.loodosVaka;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -461,9 +585,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ter.erkut.loodosVaka;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -583,6 +710,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		35B4BD952A3A8854009D3B54 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		354A362D2A3FB8D700BA0FDE /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 35B4BD952A3A8854009D3B54 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		35B4BD962A3A8854009D3B54 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 35B4BD952A3A8854009D3B54 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		35B4BD982A3A8854009D3B54 /* FirebaseInAppMessagingSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 35B4BD952A3A8854009D3B54 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessagingSwift-Beta";
+		};
+		35E856062A3FD216004F8658 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 35B4BD952A3A8854009D3B54 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 357D68922A39178500648221 /* Project object */;
 }
